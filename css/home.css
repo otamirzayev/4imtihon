@@ -1,0 +1,143 @@
+.hero {
+    margin-bottom: 250px;
+}
+.hero__wrapper {
+    display: flex;
+    position: relative;
+}
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left__title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+}
+.red-word {
+    color: #F67E7E;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right__description {
+    width: 445px;
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+.heroline{
+    margin-right: auto;
+    margin-bottom: 79px;
+}
+
+.hero__img-right{
+   position: absolute;
+   bottom: -50;
+}
+
+/*build*/
+
+.build {
+   padding-top: 140px;
+    background-color: #012F34;
+    padding-bottom: 140px;
+}
+.build__wrapper {
+    display: flex;
+    
+}
+.left__info {
+    margin-right: 120px;
+}
+
+.buildline {
+    background-color: #F67E7E;
+    
+}
+.left__info-title {
+margin-top: 54px;
+    width: 445px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 70px;
+}
+.right__info {
+}
+.right__info-list {
+margin-top: 50px;
+}
+.right__info-item {
+    display: flex;
+    margin-bottom: 32px;
+
+    
+}
+.right__info-img {
+    margin-right: 23px;
+    
+}
+.right__info-title {
+    color: #F67E7E;
+    margin-bottom: 16px;
+}
+.right__info-description {
+    width: 445px;
+}
+
+/* DELIVIRING*/
+
+.delivering {
+    margin-bottom: 140px;
+    margin-top: 140px;
+}
+.delivering__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+}
+.delivering__title {
+    text-align: center;
+    width: 932px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 56px;
+}
+.green-word {
+    color: #79C8C7;
+}
+.delivering__list {
+    display: flex;
+}
+.delivering__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin-left: 30px;
+
+}
+.delivering__item-description {
+    position: relative;
+    margin-bottom: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+.delivering__item-title {
+    color: #79C8C7;
+}
+.delivering__item-img {
+}
+.delivery__bg-img{
+    position: absolute;
+    z-index: -1;
+    bottom: 30;
+}
